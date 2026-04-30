@@ -18,11 +18,14 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* Functions provided for the project */
+/* Helper functions provided by the school */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
-/* Task 0 */
+/* Task 0: Bubble Sort */
 void bubble_sort(int *array, size_t size);
+
+/* Task 1: Insertion Sort */
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */
