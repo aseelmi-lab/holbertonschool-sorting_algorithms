@@ -1,4 +1,3 @@
-Markdown
 # Sorting Algorithms & Big O
 
 ## Description
@@ -12,7 +11,7 @@ This project is a collection of various sorting algorithms implemented in C. As 
 *   The prototypes of all functions are included in the `sort.h` header file.
 
 ## Supported Sorting Algorithms
-Currently, this repository includes the following sorting techniques:
+This repository includes the following sorting techniques:
 
 *   **Bubble Sort:** A simple comparison-based algorithm.
 *   **Insertion Sort:** Builds the final sorted list one item at a time.
@@ -21,22 +20,25 @@ Currently, this repository includes the following sorting techniques:
 
 ## Installation
 Clone the repository to your local machine:
+
 ```bash
-git clone [https://github.com/aseelmi-lab/holbertonschool-sorting_algorithms.git](https://github.com/aseelmi-lab/holbertonschool-sorting_algorithms.git)
+git clone https://github.com/aseelmi-lab/holbertonschool-sorting_algorithms.git
 cd holbertonschool-sorting_algorithms
-Testing
+```
+## Testing
 To test the algorithms, compile the files using the following command:
 
-Bash
+```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o sort
-Files
-sort.h: The header file containing all structure definitions and prototypes.
+```
 
-0-bubble_sort.c: Implementation of the Bubble Sort algorithm.
+## Files
+* `sort.h`: The header file containing all structure definitions and prototypes.
+* `0-bubble_sort.c`: Implementation of the Bubble Sort algorithm.
+* `1-insertion_sort_list.c`: Implementation of the insertion sort algorithm for double linked lists
+* `2-selection_sort.c`: Implementation of the selection sort algorithm
+* `3-quick-sort.c`: Implementation of the quick sort algorithm
+* `0-O` through `3-O`: Time complexity files
 
-1-insertion_sort_list.c: Implementation of the Insertion Sort for doubly linked lists.
-
-0-O & 1-O: Files containing the time complexity for each algorithm.
-
-Authors
-Created by: Aseel Alzhrani
+## Authors
+Aseel Alzhrani & Reema Almujalli
